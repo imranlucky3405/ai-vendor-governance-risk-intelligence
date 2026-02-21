@@ -1,6 +1,6 @@
-![Banner](assets/banner.jpg)
-
 # 🚀 AI-Enabled Vendor Governance & Risk Intelligence Platform
+
+![Banner](assets/banner.jpg)
 
 ![AI Enabled Intelligence Platform](assets/giphy.webp)
 
@@ -143,6 +143,7 @@ Anomaly Detection:
 ## 📸 Dashboard Preview
 
 ### 📉 Predictive Risk
+<<<<<<< HEAD
 ![Predictive Risk](assets/predictive_risk.jpeg)
 
 ### 💸 Financial Impact
@@ -150,6 +151,15 @@ Anomaly Detection:
 
 ### 📈 Time-Series & Escalation
 ![Time Series](assets/time_series_escalation.jpeg)
+=======
+![Predictive Risk](assets/predictive_risk.png)
+
+### 💸 Financial Impact
+![Financial Impact](assets/financial_impact.png)
+
+### 📈 Time-Series & Escalation
+![Time Series](assets/time_series_escalation.png)
+>>>>>>> 6964497 (Updated README and added media assets)
 
 ---
 
