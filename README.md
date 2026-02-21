@@ -2,11 +2,10 @@
 
 ![Banner](assets/banner.jpg)
 
-![AI Enabled Intelligence Platform](assets/giphy.webp)
+![AI Enabled Intelligence Platform](assets/giphy.webp) [![Python](https://img.shields.io/badge/Python-3.9-blue)]()
 
 > Transforming Telecom Vendor Governance from Reactive Escalation to Predictive Intelligence
 
-[![Python](https://img.shields.io/badge/Python-3.9-blue)]()
 [![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-red)]()
 [![Machine Learning](https://img.shields.io/badge/ML-RandomForest-green)]()
 [![Time Series](https://img.shields.io/badge/Forecasting-ARIMA-orange)]()
@@ -143,7 +142,7 @@ Anomaly Detection:
 ## 📸 Dashboard Preview
 
 ### 📉 Predictive Risk
-<<<<<<< HEAD
+
 ![Predictive Risk](assets/predictive_risk.jpeg)
 
 ### 💸 Financial Impact
@@ -151,15 +150,6 @@ Anomaly Detection:
 
 ### 📈 Time-Series & Escalation
 ![Time Series](assets/time_series_escalation.jpeg)
-=======
-![Predictive Risk](assets/predictive_risk.png)
-
-### 💸 Financial Impact
-![Financial Impact](assets/financial_impact.png)
-
-### 📈 Time-Series & Escalation
-![Time Series](assets/time_series_escalation.png)
->>>>>>> 6964497 (Updated README and added media assets)
 
 ---
 
