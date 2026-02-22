@@ -27,7 +27,7 @@
 ## 🧰 Tech Stack
 
 <p align="center">
-  <img src="assets/logos/tech_rotation.gif" width="300" alt="Tech Stack"/>
+  <img src="assets/logos/tech_rotation.gif" width="100" alt="Tech Stack"/>
 </p>
 
 <p align="center">
