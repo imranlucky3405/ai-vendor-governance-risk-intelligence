@@ -16,6 +16,8 @@
   <a href="#-roadmap">Roadmap</a>
 </p>
 
+## 🧰 Tech Stack
+
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.x-3776AB?logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/Streamlit-App-FF4B4B?logo=streamlit&logoColor=white" />
@@ -23,8 +25,6 @@
   <img src="https://img.shields.io/badge/Forecasting-ARIMA-orange" />
   <img src="https://img.shields.io/badge/Status-Active-success" />
 </p>
-
-## 🧰 Tech Stack
 
 <p align="center">
   <img src="assets/logos/tech_rotation.gif" width="100" alt="Tech Stack"/>
