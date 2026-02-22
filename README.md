@@ -102,7 +102,7 @@ I build AI-driven governance systems that reduce leakage, improve performance, a
 
 ## 🧩 Architecture
 <p align="center">
-  <img src="assets/architecture.png" width="900" alt="Architecture diagram"/>
+  <img src="assets/architecture.png" width="500" alt="Architecture diagram"/>
 </p>
 
 ---
@@ -112,6 +112,7 @@ I build AI-driven governance systems that reduce leakage, improve performance, a
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
+```
 
 ---
 
@@ -143,6 +144,7 @@ streamlit run app.py
 ├── assets/
 ├── requirements.txt
 └── README.md
+```
 
 ---
 
@@ -151,6 +153,6 @@ streamlit run app.py
 **Imran Sayyed**  
 Senior Manager | AI & Data Science | Vendor Governance Automation  
 
-- 🔗 GitHub: https://github.com/imran-ai-ds
-- 🔗 LinkedIn: (www.linkedin.com/in/imran-sayyed-77293759)
+- 🔗 GitHub: https://github.com/imran-ai-ds  
+- 🔗 LinkedIn: https://www.linkedin.com/in/imran-sayyed-77293759  
 - 📍 Mumbai / Pune (Open to Remote & Global Roles)
