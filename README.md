@@ -106,7 +106,7 @@ I build AI-driven governance systems that reduce leakage, improve performance, a
 </p>
 
 ---
-```md
+
 ## ⚙️ Quickstart
 
 ```bash
