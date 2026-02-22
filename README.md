@@ -6,6 +6,10 @@
 
 ![AI Enabled Intelligence Platform](assets/transformation.jpg) [![Python](https://img.shields.io/badge/Python-3.9-blue)]() [![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-red)]() [![Machine Learning](https://img.shields.io/badge/ML-RandomForest-green)]() [![Time Series](https://img.shields.io/badge/Forecasting-ARIMA-orange)]() [![Status](https://img.shields.io/badge/Status-Production--Ready-brightgreen)]()
 
+## 👋 About Me
+I’m **Imran Sayyed**, a Senior Manager with **17+ years** in telecom vendor operations, compliance, and cost governance.  
+I build AI-driven governance and risk intelligence systems to reduce leakage and improve vendor performance.
+
 # 🚀 AI-Enabled Vendor Governance & Risk Intelligence System
 
 An end-to-end AI-driven decision support system designed to transform telecom vendor governance from reactive escalation to proactive, data-driven risk intelligence.
@@ -62,67 +66,6 @@ Estimates:
 
 ---
 
-## 📊 Dashboard Modules
-
-- 🔧 Operations Dashboard
-- 💰 SCM Dashboard
-- 📉 Predictive Risk Intelligence
-- 💸 Financial Impact Simulation
-- 📈 Delivery Time-Series & Escalation
-
----
-## 📌 Executive Summary
-
-This project builds a multi-layer AI system for telecom vendor governance integrating:
-
-- Vendor Performance Index (VPI)
-- ML-based deterioration risk prediction
-- Financial impact quantification
-- Time-series forecasting
-- Anomaly-driven escalation engine
-- Role-based operational dashboards
-
-The system enables leadership to shift from reactive firefighting to proactive, data-driven decision intelligence.
-
-## 🏗 System Architecture
-
-Data Layer → Intelligence Layer → Decision Layer → Visualization Layer
-
-1. Structured Vendor Data (Delivery, SCM, Compliance)
-2. ML Risk Prediction Model
-3. ARIMA Forecasting Engine
-4. Anomaly Detection Engine
-5. Escalation & Action Recommendation Engine
-6. Streamlit Decision Dashboard
-
-## 🤖 Model Governance
-
-Model Type: Random Forest Classifier  
-Target: Vendor Deterioration Risk  
-Class Imbalance: Handled using class_weight="balanced"  
-Evaluation Metrics:
-- Accuracy
-- Precision
-- Recall
-- ROC-AUC
-
-Time-Series Model:
-- ARIMA(1,1,1) for short-term forecasting
-
-Anomaly Detection:
-- Rolling Z-Score
-- Sensitivity tuning
-- Percentile-based severity classification
-
-## 🔮 Future Enhancements
-
-- SHAP-based explainability
-- Vendor-level forecasting
-- Automated email escalation
-- ERP/SAP integration
-- Cloud deployment
-- MLOps drift monitoring
-
 ## 📸 Dashboard Preview
 
 ### 📉 Predictive Risk
@@ -136,5 +79,7 @@ Anomaly Detection:
 ![Time Series](assets/time_series_escalation.jpeg)
 
 ---
-
-## 🗂 Project Structure
+## ⚙️ Quickstart
+```bash
+pip install -r requirements.txt
+streamlit run app.py
