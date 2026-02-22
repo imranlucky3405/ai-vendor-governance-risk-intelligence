@@ -30,6 +30,8 @@
   <img src="assets/logos/tech_rotation.gif" width="100" alt="Tech Stack"/>
 </p>
 
+## 🧠 Intelligence Delivered
+
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?size=18&duration=2500&pause=700&center=true&vCenter=true&width=820&lines=Predictive+Vendor+Risk+Scoring;Financial+Impact+Leakage+Insights;Delivery+Time-Series+Intelligence;Governance+Automation+%7C+Action+Tracking" />
 </p>
