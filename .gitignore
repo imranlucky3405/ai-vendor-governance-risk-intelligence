@@ -18,3 +18,5 @@ Thumbs.db
 
 # Large raw files (optional)
 data/raw/*.csv
+
+~$*.docx
