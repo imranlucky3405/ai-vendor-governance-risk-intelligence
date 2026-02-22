@@ -70,6 +70,36 @@ I build AI-driven governance systems that reduce leakage, improve performance, a
 
 ---
 
+## 🧠 ML Methodology
+
+### Data Layer
+- Vendor KPIs
+- Compliance indicators
+- Invoice & payment signals
+- Delivery timelines
+
+### Feature Engineering
+- Delay ratios
+- Cost variance
+- Escalation frequency
+- Performance volatility
+
+### Model
+- Random Forest Classifier
+- Class imbalance handled via `class_weight`
+- Risk probability scoring
+
+### Forecasting
+- ARIMA (3-month prediction)
+- Rolling Z-score anomaly detection
+
+### Output
+- Risk Band (Low / Moderate / High / Critical)
+- Financial Exposure Estimate
+- Escalation Trigger Recommendation
+
+---
+
 ## 🧩 Architecture
 <p align="center">
   <img src="assets/architecture.png" width="900" alt="Architecture diagram"/>
@@ -81,3 +111,45 @@ I build AI-driven governance systems that reduce leakage, improve performance, a
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
+
+---
+
+## 🛣️ Roadmap
+
+- [x] Vendor Performance Index
+- [x] Risk Classification Model
+- [x] Financial Impact Simulation
+- [x] Time-Series Forecasting
+- [ ] Model Explainability (SHAP)
+- [ ] Drift Detection & Monitoring
+- [ ] Role-Based Governance Access
+- [ ] Deployment on Streamlit Cloud
+- [ ] CI/CD Integration
+
+---
+
+## 🗂️ Project Structure
+
+```text
+.
+├── app.py
+├── src/
+│   ├── risk_model.py
+│   ├── vpi_calculation.py
+│   └── forecasting.py
+├── models/
+├── data/
+├── assets/
+├── requirements.txt
+└── README.md
+
+---
+
+## 📫 Contact
+
+**Imran Sayyed**  
+Senior Manager | AI & Data Science | Vendor Governance Automation  
+
+- 🔗 GitHub: https://github.com/imran-ai-ds
+- 🔗 LinkedIn: (www.linkedin.com/in/imran-sayyed-77293759)
+- 📍 Mumbai / Pune (Open to Remote & Global Roles)
