@@ -1,91 +1,78 @@
-# 🚀 AI-Enabled Vendor Governance & Risk Intelligence Platform
-
-![Banner](assets/banner.jpg)
-
-> Transforming Telecom Vendor Governance from Reactive Escalation to Predictive Intelligence
-
-![AI Enabled Intelligence Platform](assets/transformation.jpg) [![Python](https://img.shields.io/badge/Python-3.9-blue)]() [![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-red)]() [![Machine Learning](https://img.shields.io/badge/ML-RandomForest-green)]() [![Time Series](https://img.shields.io/badge/Forecasting-ARIMA-orange)]() [![Status](https://img.shields.io/badge/Status-Production--Ready-brightgreen)]()
-
-## 👋 About Me
-I’m **Imran Sayyed**, a Senior Manager with **17+ years** in telecom vendor operations, compliance, and cost governance.  
-I build AI-driven governance and risk intelligence systems to reduce leakage and improve vendor performance.
-
-# 🚀 AI-Enabled Vendor Governance & Risk Intelligence System
-
-An end-to-end AI-driven decision support system designed to transform telecom vendor governance from reactive escalation to proactive, data-driven risk intelligence.
-
----
-
-## 🎯 Project Objective
-
-Telecom vendor governance often suffers from:
-
-- Delivery delays
-- Cost overruns
-- Compliance gaps
-- Escalation-driven firefighting
-
-This project builds an AI-powered intelligence layer that:
-
-✔ Predicts vendor deterioration risk  
-✔ Quantifies financial exposure  
-✔ Forecasts delivery delays  
-✔ Detects delay anomalies  
-✔ Triggers automatic escalation  
-✔ Provides role-based action recommendations  
-
----
-
-## 🧠 Core Components
-
-### 🔢 Vendor Performance Index (VPI)
-Composite score based on:
-- Delivery performance
-- Quality metrics
-- Compliance factors
-- Commercial discipline
-
-### 🤖 Predictive Risk Model
-- Random Forest Classifier
-- Class imbalance handled using `class_weight`
-- Outputs deterioration probability
-- Risk classification: Low / Moderate / High / Critical
-
-### 💸 Financial Impact Simulation
-Estimates:
-- Working capital exposure
-- Delivery delay cost impact
-- Penalty exposure
-- Estimated savings via mitigation
-
-### 📈 Time-Series Intelligence
-- Monthly delivery trend
-- ARIMA forecasting (next 3 months)
-- Rolling Z-score anomaly detection
-- Automatic escalation logic
-
----
-
-## 🎥 Dashboard Walkthrough
 <p align="center">
-  <img src="assets/dashboard_demo.gif" width="900" alt="Dashboard demo"/>
+  <img src="assets/banner.jpg" alt="Banner" width="100%"/>
+</p>
+
+<h1 align="center">AI Vendor Governance & Risk Intelligence</h1>
+
+<p align="center">
+  Turning reactive vendor escalation into <b>predictive risk scoring</b>, <b>financial impact analysis</b>, and <b>time-series intelligence</b>.
+</p>
+
+<p align="center">
+  <a href="#-demo">Demo</a> •
+  <a href="#-key-features">Key Features</a> •
+  <a href="#-architecture">Architecture</a> •
+  <a href="#-quickstart">Quickstart</a> •
+  <a href="#-roadmap">Roadmap</a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.x-3776AB?logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Streamlit-App-FF4B4B?logo=streamlit&logoColor=white" />
+  <img src="https://img.shields.io/badge/scikit--learn-ML-F7931E?logo=scikitlearn&logoColor=white" />
+  <img src="https://img.shields.io/badge/Forecasting-ARIMA-orange" />
+  <img src="https://img.shields.io/badge/Status-Active-success" />
+</p>
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=py,sklearn,sqlite,git,github" />
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?size=18&duration=2500&pause=700&center=true&vCenter=true&width=820&lines=Predictive+Vendor+Risk+Scoring;Financial+Impact+Leakage+Insights;Delivery+Time-Series+Intelligence;Governance+Automation+%7C+Action+Tracking" />
 </p>
 
 ---
 
-## 📸 Dashboard Preview
-
-### 📉 Predictive Risk
-
-![Predictive Risk](assets/predictive_risk.jpeg)
-
-### 💸 Financial Impact
-![Financial Impact](assets/financial_impact.jpeg)
-
-### 📈 Time-Series & Escalation
-![Time Series](assets/time_series_escalation.jpeg)
+## 👋 About Me
+I’m **Imran Sayyed**, Senior Manager with **17+ years** in telecom vendor operations, compliance, and cost governance.  
+I build AI-driven governance systems that reduce leakage, improve performance, and automate controls.
 
 ---
+
+## 🎥 Demo
+<p align="center">
+  <img src="assets/dashboard_demo.gif" width="900" alt="Dashboard walkthrough"/>
+</p>
+
+<details>
+  <summary><b>📸 Screenshot Gallery</b> (click to expand)</summary>
+
+  <p align="center">
+    <img src="assets/predictive_risk.jpeg" width="900" />
+    <img src="assets/financial_impact.jpeg" width="900" />
+    <img src="assets/time_series_escalation.jpeg" width="900" />
+  </p>
+</details>
+
+---
+
+## ✨ Key Features
+- **Vendor Performance Index (VPI)** with business-weighted scoring
+- **ML-based Risk Classification** (High / Medium / Low) for proactive governance
+- **Financial Impact Analyzer** to estimate leakage & prioritize interventions
+- **Time-Series Forecasting** (ARIMA) + **anomaly-based escalation**
+- **Action Tracking Dashboard** for governance closure and accountability
+
+---
+
+## 🧩 Architecture
+<p align="center">
+  <img src="assets/architecture.png" width="900" alt="Architecture diagram"/>
+</p>
+
+---
+
 ## ⚙️ Quickstart
 ```bash
 pip install -r requirements.txt
