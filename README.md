@@ -24,8 +24,10 @@
   <img src="https://img.shields.io/badge/Status-Active-success" />
 </p>
 
+## 🧰 Tech Stack
+
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=py,sklearn,sqlite,git,github" />
+  <img src="assets/tech_rotation.gif" width="500" alt="Tech Stack"/>
 </p>
 
 <p align="center">
