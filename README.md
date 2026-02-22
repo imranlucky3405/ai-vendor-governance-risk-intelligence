@@ -13,7 +13,7 @@
   <a href="#-key-features">Key Features</a> •
   <a href="#-architecture">Architecture</a> •
   <a href="#-quickstart">Quickstart</a> •
-  <a href="#-roadmap">Roadmap</a>
+  <a href="#-roadmap">Roadmap</a> •
 </p>
 
 ## 🧠 Intelligence Delivered
