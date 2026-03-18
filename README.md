@@ -137,7 +137,7 @@ The model is optimized for **high recall**, ensuring early detection of high-ris
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
-
+```
 ---
 
 ## 🛣️ Roadmap

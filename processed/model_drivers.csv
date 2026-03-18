@@ -1,0 +1,9 @@
+Feature,Importance,Direction,Coefficient,Driver_Type
+avg_delay_days,2.640060726939992,Increases Risk,2.640060726939992,Coefficient
+rejection_rate_pct,1.9199042546392997,Increases Risk,1.9199042546392997,Coefficient
+avg_payment_delay,1.7406568785376653,Increases Risk,1.7406568785376653,Coefficient
+penalty_cases,0.9319421410665772,Increases Risk,0.9319421410665772,Coefficient
+delay_frequency,0.6685590713904402,Increases Risk,0.6685590713904402,Coefficient
+payment_risk_ratio,0.48524631506239385,Increases Risk,0.48524631506239385,Coefficient
+relationship_years,0.0895320015255315,Decreases Risk,-0.0895320015255315,Coefficient
+contract_value_lakhs,0.001475809203115606,Increases Risk,0.001475809203115606,Coefficient

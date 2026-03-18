@@ -1,0 +1,9 @@
+{
+  "vendor_dashboard_master": "processed\\vendor_dashboard_master.csv",
+  "monthly_trend": "processed\\monthly_trend.csv",
+  "delivery_forecast": "processed\\delivery_forecast.csv",
+  "delivery_anomalies": "processed\\delivery_anomalies.csv",
+  "model_drivers": "processed\\model_drivers.csv",
+  "model_metrics": "processed\\model_metrics.csv",
+  "default_threshold": 0.7
+}
