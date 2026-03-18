@@ -2,10 +2,10 @@
   <img src="assets/banner.jpg" alt="Banner" width="100%"/>
 </p>
 
-<h1 align="center">AI Vendor Governance & Risk Intelligence: Production-Ready ML System with Monitoring & Governance Architecture</h1>
+<h1 align="center">AI Vendor Governance & Risk Intelligence System</h1>
 
 <p align="center">
-  Turning reactive vendor escalation into <b>predictive risk scoring</b>, <b>financial impact analysis</b>, and <b>time-series intelligence</b>.
+  End-to-End Vendor Risk Intelligence Platform with Machine Learning, Forecasting, and a Streamlit Dashboard
 </p>
 
 <p align="center">
@@ -13,7 +13,7 @@
   <a href="#-key-features">Key Features</a> •
   <a href="#-architecture">Architecture</a> •
   <a href="#-quickstart">Quickstart</a> •
-  <a href="#-roadmap">Roadmap</a> •
+  <a href="#-roadmap">Roadmap</a>
 </p>
 
 ---
@@ -21,7 +21,7 @@
 ## 🧠 Intelligence Delivered
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?size=18&duration=2500&pause=700&center=true&vCenter=true&width=820&lines=Predictive+Vendor+Risk+Scoring;Financial+Impact+Leakage+Insights;Delivery+Time-Series+Intelligence;Governance+Automation+%7C+Action+Tracking" />
+  <img src="https://readme-typing-svg.herokuapp.com?size=18&duration=2500&pause=700&center=true&vCenter=true&width=820&lines=Predictive+Vendor+Risk+Scoring;Financial+Impact+Leakage+Insights;Delivery+Time-Series+Intelligence;Governance+Automation+%7C+Action+Tracking" alt="Typing SVG" />
 </p>
 
 ---
@@ -29,11 +29,11 @@
 ## 🧰 Tech Stack
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-3.x-3776AB?logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Streamlit-App-FF4B4B?logo=streamlit&logoColor=white" />
-  <img src="https://img.shields.io/badge/scikit--learn-ML-F7931E?logo=scikitlearn&logoColor=white" />
-  <img src="https://img.shields.io/badge/Forecasting-ARIMA-orange" />
-  <img src="https://img.shields.io/badge/Status-Active-success" />
+  <img src="https://img.shields.io/badge/Python-3.x-3776AB?logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Streamlit-App-FF4B4B?logo=streamlit&logoColor=white" alt="Streamlit" />
+  <img src="https://img.shields.io/badge/scikit--learn-ML-F7931E?logo=scikitlearn&logoColor=white" alt="scikit-learn" />
+  <img src="https://img.shields.io/badge/Forecasting-ARIMA-orange" alt="ARIMA" />
+  <img src="https://img.shields.io/badge/Status-Active-success" alt="Status" />
 </p>
 
 <p align="center">
@@ -43,12 +43,20 @@
 ---
 
 ## 👋 About Me
-I’m **Imran Sayyed**, Senior Manager with **17+ years** in telecom vendor operations, compliance, and cost governance.  
-I design enterprise-grade AI systems with a focus on scalable architecture, monitoring, and governance. My goal is to bridge domain expertise with production-ready ML systems that can operate reliably in real-world enterprise environments.
+
+I’m **Imran Sayyed**, Senior Manager with **17+ years** in telecom vendor operations, compliance, and cost governance.
+
+I build **enterprise-oriented AI systems** focused on:
+- Vendor governance
+- Financial risk control
+- Process automation
+
+My goal is to bridge **domain expertise + data science** to create systems that deliver real business impact.
 
 ---
 
 ## 🎥 Demo
+
 <p align="center">
   <img src="assets/dashboard_demo.gif" width="900" alt="Dashboard walkthrough"/>
 </p>
@@ -56,11 +64,13 @@ I design enterprise-grade AI systems with a focus on scalable architecture, moni
 ---
 
 ## ✨ Key Features
+
 - **Vendor Performance Index (VPI)** with business-weighted scoring
-- **ML-based Risk Classification** (High / Medium / Low) for proactive governance
-- **Financial Impact Analyzer** to estimate leakage & prioritize interventions
-- **Time-Series Forecasting** (ARIMA) + **anomaly-based escalation**
-- **Action Tracking Dashboard** for governance closure and accountability
+- **Predictive Risk Classification** using Machine Learning
+- **Financial Impact Analyzer** to estimate leakage and prioritize actions
+- **Time-Series Forecasting (ARIMA)** for delivery trend prediction
+- **Anomaly Detection** for early escalation signals
+- **Action Recommendation Engine** for governance decisions
 
 ---
 
@@ -69,7 +79,7 @@ I design enterprise-grade AI systems with a focus on scalable architecture, moni
 ### Data Layer
 - Vendor KPIs
 - Compliance indicators
-- Invoice & payment signals
+- Invoice and payment signals
 - Delivery timelines
 
 ### Feature Engineering
@@ -79,25 +89,46 @@ I design enterprise-grade AI systems with a focus on scalable architecture, moni
 - Performance volatility
 
 ### Model
-- Random Forest Classifier
-- Class imbalance handled via `class_weight`
-- Risk probability scoring
+- Logistic Regression (selected via cross-validation)
+- Compared with Random Forest, Gradient Boosting, and SVM
+- Class imbalance handled using `class_weight="balanced"`
+- Risk scoring using predicted probabilities
 
-### Forecasting
+## 📊 Model Performance
+
+Best model selected via Stratified 5-Fold Cross Validation.
+
+| Metric | Value |
+|------|------|
+| ROC-AUC | 0.983 |
+| Accuracy | 92.2% |
+| Precision | 85.0% |
+| Recall | 97.1% |
+| F1 Score | 90.7% |
+
+The model is optimized for **high recall**, ensuring early detection of high-risk vendors.
+
+### 📈 Forecasting
 - ARIMA (3-month prediction)
 - Rolling Z-score anomaly detection
 
-### Output
+### 🎯 Output
 - Risk Band (Low / Moderate / High / Critical)
 - Financial Exposure Estimate
-- Escalation Trigger Recommendation
+- Action Recommendation
 
 ---
 
 ## 🧩 Architecture
+
 <p align="center">
   <img src="assets/architecture.png" width="500" alt="Architecture diagram"/>
 </p>
+
+**Execution Flow:**
+- Notebook performs full data processing, modeling, and forecasting
+- Outputs are saved as processed artifacts
+- Streamlit dashboard consumes these artifacts for visualization
 
 ---
 
@@ -106,7 +137,6 @@ I design enterprise-grade AI systems with a focus on scalable architecture, moni
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
-```
 
 ---
 
@@ -140,13 +170,22 @@ streamlit run app.py
 ```text
 .
 ├── app.py
-├── src/
-│   ├── risk_model.py
-│   ├── vpi_calculation.py
-│   └── forecasting.py
+├── Vendor_Governance.ipynb
+├── processed/
+│   ├── vendor_dashboard_master.csv
+│   ├── monthly_trend.csv
+│   ├── delivery_forecast.csv
+│   ├── delivery_anomalies.csv
+│   ├── model_drivers.csv
+│   ├── model_metrics.csv
+│   └── artifact_manifest.json
 ├── models/
-├── data/
+│   └── risk_model.pkl
 ├── assets/
+│   ├── banner.jpg
+│   ├── dashboard_demo.gif
+│   ├── architecture.png
+│   └── logos/
 ├── requirements.txt
 └── README.md
 ```
